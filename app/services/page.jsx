@@ -70,7 +70,7 @@ const Services = () => {
                   {service.title}
                 </h2>
                 {/* description*/}
-                <p>{service.description}</p>
+                <p className="text-white/60">{service.description}</p>
                 {/* border */}
                 <div className="border-b border-white/20 w-full"></div>
               </div>
