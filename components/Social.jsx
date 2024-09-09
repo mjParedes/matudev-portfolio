@@ -11,6 +11,7 @@ const socials = [
 ];
 
 const Social = ({ containerStyles, iconStyles }) => {
+  
   return (
     <div className={containerStyles}>
       {socials.map((item, index) => {
