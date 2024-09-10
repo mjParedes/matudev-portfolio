@@ -7,9 +7,19 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaPython,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript,
+  SiMysql,
+  SiNestjs,
+  SiDjango,
+  SiMongodb,
+  SiExpress,
+} from "react-icons/si";
 
 // about data
 const about = {
@@ -19,7 +29,7 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Matias Paredes",
+      fieldValue: "Matias Javier Paredes",
     },
     {
       fieldName: "Phone",
@@ -49,22 +59,22 @@ const experience = {
   icon: "",
   title: "My experience",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam sit quos, itaque impedit tempora facere laboriosam dolorum natus inventore nam maiores et nemo temporibus voluptatem, atque iure distinctio animi fuga.",
+    "Specialized in the MERN stack with projects in MongoDB, Express, React, and Node.js. I have also worked with SQL databases, optimized performance using Next.js, and built scalable solutions with Nest.js, utilizing Tailwind CSS for responsive design.",
   items: [
     {
-      company: "la la land",
+      company: "No Country",
       position: "Full Stack Developer",
-      duration: "2022 - present",
+      duration: "Jul 2023 - at present",
     },
     {
-      company: "la la land",
+      company: "Sol y Luna Restaurant",
       position: "Full Stack Developer",
-      duration: "2022 - present",
+      duration: "Dec 2022 - Mar 2023",
     },
     {
-      company: "la la land",
-      position: "Full Stack Developer",
-      duration: "2022 - present",
+      company: "Falabella S.A",
+      position: "Qualified Salesman",
+      duration: "Nov 2010 - Nov 2020",
     },
   ],
 };
@@ -74,7 +84,7 @@ const education = {
   icon: "",
   title: "My education",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam sit quos, itaque impedit tempora facere laboriosam dolorum natus inventore nam maiores et nemo temporibus voluptatem, atque iure distinctio animi fuga.",
+    "Trained in the MERN stack, SQL databases, and frameworks like Next.js and Nest.js. My education also covers responsive design with Tailwind CSS.",
   items: [
     {
       institution: "Coder House",
@@ -98,7 +108,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem illum aliquam laborum tempore quasi optio explicabo nobis, ipsum eum!",
+    "Proficient in the MERN stack (MongoDB, Express, React, Node.js), SQL, Next.js, and Nest.js. Experienced in Python, Django, TypeScript, and UI/UX design using Figma and Tailwind CSS for responsive interfaces..",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -111,6 +121,34 @@ const skills = {
     {
       icon: <FaJs />,
       name: "javascript",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "typescript",
+    },
+    {
+      icon: <FaPython />,
+      name: "python",
+    },
+    {
+      icon: <SiMongodb />,
+      name: "mongo db",
+    },
+    {
+      icon: <SiExpress />,
+      name: "express",
+    },
+    {
+      icon: <SiMysql />,
+      name: "my sql",
+    },
+    {
+      icon: <SiNestjs />,
+      name: "nest",
+    },
+    {
+      icon: <SiDjango />,
+      name: "django",
     },
     {
       icon: <FaReact />,
@@ -129,7 +167,7 @@ const skills = {
       name: "node.js",
     },
     {
-      icon: <SiTailwindcss />,
+      icon: <FaFigma />,
       name: "tailwind.css",
     },
   ],

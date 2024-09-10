@@ -25,7 +25,12 @@ const projects = [
     category: "frontend",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Js" }],
+    stack: [
+      { name: "Js" },
+      { name: "React" },
+      { name: "Mongo" },
+      { name: "Express" },
+    ],
     image: "/assets/work/project1.png",
     live: "https://earthpoints.vercel.app/",
     github: "https://github.com/No-Country/s11-20-m-typescript-react.git",
@@ -47,7 +52,12 @@ const projects = [
     category: "frontend",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Js" }],
+    stack: [
+      { name: "Js" },
+      { name: "React" },
+      { name: "Firebase" },
+      { name: "Material UI" },
+    ],
     image: "/assets/work/project3.png",
     live: "https://planetbook-app.vercel.app/",
     github: "https://github.com/mjParedes/proyReactJs-Coder-PlanetBook-MJP.git",
@@ -55,10 +65,15 @@ const projects = [
   {
     num: "04",
     title: "Skill Swap",
-    category: "frontend",
+    category: "fullstack",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Js" }],
+    stack: [
+      { name: "Js" },
+      { name: "React" },
+      { name: "Next JS" },
+      { name: "Mongo" },
+    ],
     image: "/assets/work/project4.png",
     live: "https://s9-13-m-express-react.vercel.app/",
     github: "https://github.com/mjParedes/s9-13-skill-swap.git",
@@ -69,7 +84,12 @@ const projects = [
     category: "frontend",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Js" }],
+    stack: [
+      { name: "Js" },
+      { name: "React" },
+      { name: "Next" },
+      { name: "Tailwind" },
+    ],
     image: "/assets/work/project5.png",
     live: "https://www.solylunasancristobal.com/",
     github: "https://github.com/mjParedes/SOL_Y_LUNA_RESTAURANT.git",
@@ -112,7 +132,7 @@ const Work = () => {
               </div>
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title}
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>

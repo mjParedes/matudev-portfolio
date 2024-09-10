@@ -8,28 +8,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Fullstack MERN developer with experience on software developments and other stuffs.",
+      "I offer full-stack web development services, specializing in creating responsive and dynamic websites. With expertise in the MERN stack, I build scalable web applications that meet your business needs.",
     href: "",
   },
   {
     num: "02",
-    title: "UX/UI design",
+    title: "UX/UI Design",
     description:
-      "Fullstack MERN developer with experience on software developments and other stuffs.",
+      "Crafting user-friendly and visually appealing interfaces is my forte. I design intuitive experiences that enhance user satisfaction and engagement, ensuring your product stands out.",
     href: "",
   },
   {
     num: "03",
-    title: "Technical assistance",
+    title: "Technical Support",
     description:
-      "Fullstack MERN developer with experience on software developments and other stuffs.",
+      "Providing reliable technical support, I ensure smooth operation and maintenance of your systems. From troubleshooting issues to regular updates, I am here to help you maintain your digital environment.",
     href: "",
   },
   {
     num: "04",
-    title: "Something cool",
+    title: "IT Assistance",
     description:
-      "Fullstack MERN developer with experience on software developments and other stuffs.",
+      "Need help with IT tasks? I offer comprehensive assistance, including system setup, configuration, and optimization, to ensure your technology infrastructure is running efficiently.",
     href: "",
   },
 ];
