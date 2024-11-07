@@ -113,10 +113,10 @@ const projects = [
     description:
       "A networking platform to connect and discover talents across different fields",
     stack: [
-      { name: "Typescript" },
+      { name: "Ts" },
       { name: "Next" },
       { name: "Tailwind" },
-      { name: "Prisma ORM" },
+      { name: "Prisma" },
       { name: "Express" },
       { name: "PostgreSQL" },
     ],
