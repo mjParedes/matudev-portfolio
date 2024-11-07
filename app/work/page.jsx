@@ -106,6 +106,18 @@ const projects = [
     github:
       "https://github.com/mjParedes/travellersProyectoFinalParedesMatias.git",
   },
+  {
+    num: "07",
+    title: "Talentify",
+    category: "fullstack",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Js" }],
+    image: "/assets/work/project7.png",
+    live: "https://dev-talentify.vercel.app/",
+    github:
+      "https://github.com/mjParedes/TALENTIFY",
+  }
 ];
 
 const Work = () => {
