@@ -22,13 +22,13 @@ const projects = [
   {
     num: "01",
     title: "Earth Points",
-    category: "frontend",
+    category: "fullstack",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
+      "A platform designed to track and reward eco-friendly actions for a sustainable lifestyle.",
     stack: [
       { name: "Js" },
       { name: "React" },
-      { name: "Mongo" },
+      { name: "MongoDB" },
       { name: "Express" },
     ],
     image: "/assets/work/project1.png",
@@ -40,7 +40,7 @@ const projects = [
     title: "Pet Care",
     category: "frontend",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
+      "An application to manage and track pet care routines and essentials.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Js" }],
     image: "/assets/work/project2.png",
     live: "https://petcare-pied.vercel.app/",
@@ -49,9 +49,9 @@ const projects = [
   {
     num: "03",
     title: "Planet Book",
-    category: "frontend",
+    category: "fullstack",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
+      "A social platform to explore books, share reviews, and connect with other readers.",
     stack: [
       { name: "Js" },
       { name: "React" },
@@ -67,7 +67,7 @@ const projects = [
     title: "Skill Swap",
     category: "fullstack",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
+      "A platform for users to connect and exchange skills in a collaborative community.",
     stack: [
       { name: "Js" },
       { name: "React" },
@@ -83,7 +83,7 @@ const projects = [
     title: "Sol y Luna - Restaurant",
     category: "frontend",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
+      " A modern and responsive website showcasing the menu and ambiance of a restaurant.",
     stack: [
       { name: "Js" },
       { name: "React" },
@@ -99,7 +99,7 @@ const projects = [
     title: "Travellers",
     category: "frontend",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
+      "A travel website offering inspiration and information on various destinations worldwide.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Js" }],
     image: "/assets/work/project6.png",
     live: "https://travellers-proyecto-desarrollo-web-matudev.vercel.app/",
@@ -111,13 +111,19 @@ const projects = [
     title: "Talentify",
     category: "fullstack",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis culpa odio blanditiis eligendi soluta modi atque eum corporis itaque unde!",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Js" }],
+      "A networking platform to connect and discover talents across different fields",
+    stack: [
+      { name: "Typescript" },
+      { name: "Next" },
+      { name: "Tailwind" },
+      { name: "Prisma ORM" },
+      { name: "Express" },
+      { name: "PostgreSQL" },
+    ],
     image: "/assets/work/project7.png",
     live: "https://dev-talentify.vercel.app/",
-    github:
-      "https://github.com/mjParedes/TALENTIFY",
-  }
+    github: "https://github.com/mjParedes/TALENTIFY",
+  },
 ];
 
 const Work = () => {
